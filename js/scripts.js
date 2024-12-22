@@ -11,12 +11,12 @@ document.addEventListener('DOMContentLoaded', () => {
     let cart = [];
   
     const products = [
-      { name: 'Waffle with Berries', price: 6.5, image: 'image-waffle-desktop.jpg' },
-      { name: 'Vanilla Bean Crème Brûlée', price: 7.0, image: 'image-creme-brulee-desktop.jpg' },
-      { name: 'Macaron Mix of Five', price: 8.0, image: 'image-macaron-desktop.jpg' },
-      { name: 'Classic Tiramisu', price: 5.5, image: 'image-tiramisu-desktop.jpg' },
-      { name: 'Red Velvet Cake', price: 4.5, image: 'image-cake-desktop.jpg' },
-      { name: 'Salted Caramel Brownie', price: 5.5, image: 'image-brownie-desktop.jpg' },
+      { name: 'Waffle with Berries', price: 6.5, image: 'assets/image-waffle-desktop.jpg' },
+      { name: 'Vanilla Bean Crème Brûlée', price: 7.0, image: 'assets/image-creme-brulee-desktop.jpg' },
+      { name: 'Macaron Mix of Five', price: 8.0, image: 'assets/image-macaron-desktop.jpg' },
+      { name: 'Classic Tiramisu', price: 5.5, image: 'assets/image-tiramisu-desktop.jpg' },
+      { name: 'Red Velvet Cake', price: 4.5, image: 'assets/image-cake-desktop.jpg' },
+      { name: 'Salted Caramel Brownie', price: 5.5, image: 'assets/image-brownie-desktop.jpg' },
     ];
   
     function renderProducts() {
