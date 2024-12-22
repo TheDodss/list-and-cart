@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desserts Store</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <h1>Desserts Store</h1>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <section class="product-list">
+        <h2>Our Desserts</h2>
+        <div id="products" class="products"></div>
+      </section>
+      <aside class="cart">
+        <h2>Your Cart (<span id="cart-count">0</span>)</h2>
+        <ul id="cart-items" class="cart-items">
+          <p class="empty-cart">Your added items will appear here</p>
+        </ul>
+        <div class="cart-summary">
+          <p>Order Total: <span id="total-price">$0.00</span></p>
+          <button id="confirm-order" class="checkout-btn" disabled>Confirm Order</button>
+        </div>
+      </aside>
+    </div>
+  </main>
+  <footer>
+    <p>© 2024 Desserts Store. All rights reserved.</p>
+  </footer>
+  <div id="confirmation-modal" class="hidden">
+    <div class="modal-content">
+      <img src="icon-order-confirmed.svg" alt="Order Confirmed">
+      <h2>Order Confirmed</h2>
+      <p>We hope you enjoy your food!</p>
+      <ul id="order-summary" class="order-summary"></ul>
+      <button id="start-new-order" class="checkout-btn">Start New Order</button>
+    </div>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>
